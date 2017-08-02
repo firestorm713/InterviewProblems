@@ -1,8 +1,12 @@
 #pragma once
 #include<string>
 
+std::string removeSpaces(std::string str);
+
+void sortChars(std::string &str);
+
 // no additional data structures!
-bool IsUnique(const std::string str);
+bool IsUnique(const std::string &str);
 
 // returns true iff
 // 			- the lengths of the two strings are the same

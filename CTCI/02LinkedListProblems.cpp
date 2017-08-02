@@ -17,8 +17,9 @@ void PartitionList(ListNode * list, int partitionNumber)
 {
 }
 
-void SumLists(ListNode * listA, ListNode * listB)
+ListNode* SumLists(ListNode * listA, ListNode * listB)
 {
+    return nullptr;
 }
 
 bool PalindromeList(ListNode * list)
