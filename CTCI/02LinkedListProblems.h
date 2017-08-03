@@ -2,7 +2,7 @@
 //#include "Common.h"
 
 template <typename T>
-class ListNode<T>
+class ListNode
 {
 public:
 	void RemoveDups(ListNode<T>* list);

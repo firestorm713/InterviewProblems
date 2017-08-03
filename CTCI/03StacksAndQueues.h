@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "Common.h"
+#include"02LinkedListProblems.h"
 
 class ThreeStacksForOneArray
 {
@@ -11,50 +12,42 @@ public:
 private:
 	int StackArray[];
 };
-
+template<class T>
 class Stack
 {
 private:
-	ListNode* Top;
+	ListNode<T>* Top;
 public:
-	Stack(ListNode* _Top);
-	ListNode* Min();
+	Stack(ListNode<T>* _Top);
+	ListNode<T>* Min();
 	void Push(ListNode* node);
-	ListNode* Pop();
-	int Peek();					// look at the value of the top element
+	ListNode<T>* Pop();
+	T Peek();					// look at the value of the top element
 	bool Empty();
 };
-
+template<typename T>
 struct StackOfStacksNode
 {
-	Stack stack;
-	StackOfStacksNode* next;
+	Stack<T> stack;
+	StackOfStacksNode<T>* next;
 };
 
+template<class T>
 class StackOfStacks
 {
 public:
 	int StackCapacity;
-	ListNode* Top;
+	ListNode<T>* Top;
 	StackOfStacksNode* TopStack;
 
 };
 
 // sort stack by smallest value, can only use one stack to sort
-void SortStack(Stack stack);
+template<typename T>
+void SortStack(Stack<T> stack);
 
 enum AnimalType
 {
 	CAT,
 	DOG
-};
-
-struct AnimalQueueNode : public ListNode
-{
-	AnimalType animalType;
-};
-
-class AnimalQueue
-{
-
 };
