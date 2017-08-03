@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522BC6D51F337E570003B811 /* 01StringAndArrayProblems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522BC6D41F337E570003B811 /* 01StringAndArrayProblems.cpp */; };
 		52BAF0D51F31C2A500CB9D08 /* 02LinkedListProblems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BAF0D01F31C2A500CB9D08 /* 02LinkedListProblems.cpp */; };
 		52BAF0D61F31C2A500CB9D08 /* CTCI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BAF0D31F31C2A500CB9D08 /* CTCI.cpp */; };
-		52BAF0D71F31C2A500CB9D08 /* StringAndArrayProblems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BAF0D41F31C2A500CB9D08 /* StringAndArrayProblems.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		522BC6D41F337E570003B811 /* 01StringAndArrayProblems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 01StringAndArrayProblems.cpp; path = CTCI/01StringAndArrayProblems.cpp; sourceTree = "<group>"; };
 		5254F4EE1F31C18300C9393D /* InterviewQuestions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InterviewQuestions; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BAF0CF1F31C2A500CB9D08 /* 01StringAndArrayProblems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 01StringAndArrayProblems.h; path = CTCI/01StringAndArrayProblems.h; sourceTree = "<group>"; };
 		52BAF0D01F31C2A500CB9D08 /* 02LinkedListProblems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 02LinkedListProblems.cpp; path = CTCI/02LinkedListProblems.cpp; sourceTree = "<group>"; };
 		52BAF0D11F31C2A500CB9D08 /* 02LinkedListProblems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 02LinkedListProblems.h; path = CTCI/02LinkedListProblems.h; sourceTree = "<group>"; };
 		52BAF0D21F31C2A500CB9D08 /* 03StacksAndQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 03StacksAndQueues.h; path = CTCI/03StacksAndQueues.h; sourceTree = "<group>"; };
 		52BAF0D31F31C2A500CB9D08 /* CTCI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CTCI.cpp; path = CTCI/CTCI.cpp; sourceTree = "<group>"; };
-		52BAF0D41F31C2A500CB9D08 /* StringAndArrayProblems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringAndArrayProblems.cpp; path = CTCI/StringAndArrayProblems.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,12 +48,12 @@
 		5254F4E51F31C18300C9393D = {
 			isa = PBXGroup;
 			children = (
+				522BC6D41F337E570003B811 /* 01StringAndArrayProblems.cpp */,
 				52BAF0CF1F31C2A500CB9D08 /* 01StringAndArrayProblems.h */,
 				52BAF0D01F31C2A500CB9D08 /* 02LinkedListProblems.cpp */,
 				52BAF0D11F31C2A500CB9D08 /* 02LinkedListProblems.h */,
 				52BAF0D21F31C2A500CB9D08 /* 03StacksAndQueues.h */,
 				52BAF0D31F31C2A500CB9D08 /* CTCI.cpp */,
-				52BAF0D41F31C2A500CB9D08 /* StringAndArrayProblems.cpp */,
 				5254F4EF1F31C18300C9393D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522BC6D51F337E570003B811 /* 01StringAndArrayProblems.cpp in Sources */,
 				52BAF0D61F31C2A500CB9D08 /* CTCI.cpp in Sources */,
 				52BAF0D51F31C2A500CB9D08 /* 02LinkedListProblems.cpp in Sources */,
-				52BAF0D71F31C2A500CB9D08 /* StringAndArrayProblems.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

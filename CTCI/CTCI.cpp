@@ -2,8 +2,7 @@
 #include<string>
 #include"01StringAndArrayProblems.h"
 
-
-int main(int argc, char** argv)
+void Test1_1()
 {
     std::string z = "z e b b";
     
@@ -14,7 +13,16 @@ int main(int argc, char** argv)
     
     if(IsUnique(z))
         std::cout << "Is Unique!";
+}
+
+
+int main(int argc, char** argv)
+{
+    std::string asdf = "asdf";
+    std::string fads = "fads";
     
+    if(IsPermutation(asdf, fads))
+        std::cout << "Is Permutation!" << std::endl;
 	std::cin.get();
 	std::cin.get();
 	return 0;

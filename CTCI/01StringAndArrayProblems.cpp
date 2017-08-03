@@ -42,9 +42,22 @@ bool IsUnique(const std::string &str)
 	return true;
 }
 
-bool IsPermutation(const std::string a, std::string b)
+bool IsPermutation(const std::string a,const std::string b)
 {
-	return false;
+    std::string tempA = removeSpaces(a);
+    std::string tempB = removeSpaces(b);
+    if(tempA.length()!=tempB.length())
+        return false;
+    sortChars(tempA);
+    sortChars(tempB);
+    
+    for (int i = 0; i < tempA.length(); i++)
+    {
+        if(tempA[i]!=tempB[i])
+            return false;
+    }
+    
+    return true;
 }
 
 void URLify(std::string str)
