@@ -18,15 +18,24 @@
     <ClCompile Include="CTCI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StringAndArrayProblems.cpp">
+    <ClCompile Include="02LinkedListProblems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01StringAndArrayProblems.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StringAndArrayProblems.h">
+    <ClInclude Include="01StringAndArrayProblems.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LinkedListProblems.h">
+    <ClInclude Include="02LinkedListProblems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03StacksAndQueues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

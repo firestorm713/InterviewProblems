@@ -110,12 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01StringAndArrayProblems.cpp" />
+    <ClCompile Include="02LinkedListProblems.cpp" />
     <ClCompile Include="CTCI.cpp" />
-    <ClCompile Include="StringAndArrayProblems.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LinkedListProblems.h" />
-    <ClInclude Include="StringAndArrayProblems.h" />
+    <ClInclude Include="02LinkedListProblems.h" />
+    <ClInclude Include="01StringAndArrayProblems.h" />
+    <ClInclude Include="03StacksAndQueues.h" />
+    <ClInclude Include="Common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
